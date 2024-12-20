@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-black) !important;
+}
+
+:root{
+    --main-green:#006838;
+    --secondry-green:#55833d;
+    --ternry-green:#8cc342;
+    --sidebar-bg-clr:#e9f9d5;
+    --header-bg-clr:#e9f9d5;
+    --main-white:#ffffff;
+    --main-black:#000000;
+}
+
+ /* side bar and header css  */
+
+.side-bar-active{
+    background-color: green;
+    border-radius: 10px;
+}
+.nav-item{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.nav-item:hover{
+    background-color: green;
+    border-radius: 10px;   
+}
+.nav-item a:hover{
+    color: var(--main-white) !important;
+}
+.side-bar-active a{
+    color: var(--main-white) !important;  
+}
+.side-bar-active a:hover{
+    color: var(--main-white) !important;  
+}
+.nav-link{
+    background: 0 0;
+}
+.profile-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+
+/* main page css  */
+
+.card-body-wrapper{
+    max-height: 55vh;
+    overflow-y: scroll;
+}
+.card{
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+    background-color: rgb(234, 252, 234) !important;
+    max-height: 250px;
+}
+.card img{
+    border-radius: 20px;
+    max-height: 160px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.card-body{
+    text-align: center;
+}
+.carousel-item{
+    padding-bottom: 30px;
+}
+.carousel-item img{
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+.row.content {
+    height: 550px;
+  }
+.sidenav {
+    background-color: var(--sidebar-bg-clr);
+    height: 100vh;
+    box-shadow: rgba(33, 35, 38, 0.2) 0px 10px 10px 0.1px;
+  } 
+.dasboard-header-bg{
+    background-color: var(--sidebar-bg-clr);
+    box-shadow: rgba(33, 35, 38, 0.2) 0px 10px 10px -10px;
+}
+.logo img{
+   width: 150px;
+}
+
+/* media query  */
+@media screen and (max-width: 767px) {
+    .row.content {
+      height: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    
+  }
+
+@media screen and (max-width: 768px) {
+    
+  }
+
+@media screen and (max-width: 1024px) {
+    
+  }
+
+@media screen and (max-width: 1440px) {
+    
+  }
+
+@media screen and (max-width: 2560px) {
+    
+  }

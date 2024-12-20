@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --main-green:green;
+}
+
+ /* main page css  */
+
+.side-bar-active{
+    background-color: green;
+}
+.nav-link{
+    background: 0 0;
+}
+
+.row.content {
+    height: 550px;
+  }
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100vh;
+  } 
+.logo img{
+   width: 150px;
+}
+
+/* media query  */
+@media screen and (max-width: 767px) {
+    .row.content {
+      height: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    
+  }
+
+@media screen and (max-width: 768px) {
+    
+  }
+
+@media screen and (max-width: 1024px) {
+    
+  }
+
+@media screen and (max-width: 1440px) {
+    
+  }
+
+@media screen and (max-width: 2560px) {
+    
+  }
